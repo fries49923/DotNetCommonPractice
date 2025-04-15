@@ -1,2 +1,10 @@
 # [.net Common Tested Code]
 
+## [FakeEnumTest](./FakeEnumTest)
+
+#Enum #模式匹配
+
+利用物件繼承，加上C# 7的模式匹配語法糖，讓整體使用上，感覺像是一種可以帶參數的enum
+
+<br>
+
