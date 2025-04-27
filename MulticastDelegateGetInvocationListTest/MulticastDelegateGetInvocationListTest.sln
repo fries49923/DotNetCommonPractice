@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegateGetInvocationListTest", "MulticastDelegateGetInvocationListTest\MulticastDelegateGetInvocationListTest.csproj", "{AEB4B1BA-544D-4164-974D-2506D2274505}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEB4B1BA-544D-4164-974D-2506D2274505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB4B1BA-544D-4164-974D-2506D2274505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB4B1BA-544D-4164-974D-2506D2274505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB4B1BA-544D-4164-974D-2506D2274505}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF04B297-578C-4956-874F-7719DA390C1F}
+	EndGlobalSection
+EndGlobal

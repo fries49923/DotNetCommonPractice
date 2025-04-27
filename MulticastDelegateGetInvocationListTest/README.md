@@ -1,0 +1,3 @@
+#MulticastDelegate #Action #GetInvocationList
+
+示範使用Action來做委派，並將其與三個方法相關聯，再來演示調用委派，包括正常調用、反向調用和條件調用；最後使用GetInvocationList取得有聯繫的所有委派並且清除
