@@ -1,5 +1,21 @@
 # [.net Common Tested Code]
 
+## [AutoResetEventAndCallbackIpynbTest](./AutoResetEventAndCallbackIpynbTest)
+
+#AutoResetEvent #Callback function
+
+AutoResetEvent範例，示範使用AutoResetEvent和回呼函式（Callback）的簡單多執行緒程式
+
+<br>
+
+## [AutoResetEventTimeOutIpynbTest](./AutoResetEventTimeOutIpynbTest)
+
+#AutoResetEvent #Timeout
+
+AutoResetEvent範例，示範使用 AutoResetEvent 時加入Time out機制，以避免無窮等待的情況
+
+<br>
+
 ## [DotNetIpynbTest](./DotNetIpynbTest)
 
 #ipynb #Polyglot Notebooks
