@@ -1,0 +1,3 @@
+#AutoResetEvent #Callback function
+
+AutoResetEvent範例，示範使用AutoResetEvent和回呼函式（Callback）的簡單多執行緒程式
