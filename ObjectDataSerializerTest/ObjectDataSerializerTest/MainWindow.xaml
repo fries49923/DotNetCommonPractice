@@ -1,0 +1,88 @@
+﻿<Window x:Class="ObjectDataSerializerTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ObjectDataSerializerTest"
+        xmlns:vm="clr-namespace:ObjectDataSerializerTest.ViewModel"
+        mc:Ignorable="d"
+        Height="400"
+        Width="400"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+
+        <Style x:Key="buttonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="10"/>
+            <Setter Property="Height" Value="50"/>
+
+        </Style>
+
+    </Window.Resources>
+
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+
+    <Grid Margin="15">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0"
+                        Margin="10">
+
+                <Button Style="{StaticResource buttonStyle}"
+                        Content="WriteStrToXml"
+                        Command="{Binding Path=WriteStrToXmlCommand}"/>
+
+                <Button Style="{StaticResource buttonStyle}"
+                        Content="WriteStrToJson"
+                        Command="{Binding Path=WriteStrToJsonCommand}"/>
+
+                <Button Style="{StaticResource buttonStyle}"
+                        Content="WriteStrToYaml"
+                        Command="{Binding Path=WriteStrToYamlCommand}"/>
+
+            </StackPanel>
+
+            <StackPanel Grid.Column="1"
+                        Margin="10">
+
+                <Button Style="{StaticResource buttonStyle}"
+                        Content="ReadStrFromXml"
+                        Command="{Binding Path=ReadStrFromXmlCommand}"/>
+
+                <Button Style="{StaticResource buttonStyle}"
+                        Content="ReadStrFromJson"
+                        Command="{Binding Path=ReadStrFromJsonCommand}"/>
+
+                <Button Style="{StaticResource buttonStyle}"
+                        Content="ReadStrFromYaml"
+                        Command="{Binding Path=ReadStrFromYamlCommand}"/>
+
+            </StackPanel>
+
+        </Grid>
+
+        <Border Grid.Row="1"
+                Margin="5"
+                BorderBrush="Black"
+                BorderThickness="1">
+            <TextBlock Margin="5"
+                       TextWrapping="Wrap"
+                       Text="{Binding Path=ResultMsg}"/>
+        </Border>
+
+    </Grid>
+
+</Window>
