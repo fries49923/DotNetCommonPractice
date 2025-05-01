@@ -16,6 +16,30 @@ AutoResetEvent範例，示範使用 AutoResetEvent 時加入Time out機制，以
 
 <br>
 
+## [CancellationTokenIpynbTest](./CancellationTokenIpynbTest)
+
+#CancellationToken #CancellationTokenSource #Task #Task.Delay
+
+使用帶有TimeOut的CancellationToken範例，並示範帶入Task.Delay中，當TimeOut觸發會丟例外，另外token也有提供若狀態為Cancel時，則丟出例外的方法
+
+<br>
+
+## [ConcurrentDictionaryIpynbTest](./ConcurrentDictionaryIpynbTest)
+
+#ConcurrentDictionary #執行緒安全
+
+測試使用執行緒安全的Dictionary
+
+<br>
+
+## [ConcurrentQueueIpynbTest](./ConcurrentQueueIpynbTest)
+
+#ConcurrentQueue #執行緒安全
+
+測試使用執行緒安全的Queue
+
+<br>
+
 ## [DataTableComputeIpynbTest](./DataTableComputeIpynbTest)
 
 #DataTable #DataTable.Compute
@@ -32,6 +56,14 @@ AutoResetEvent範例，示範使用 AutoResetEvent 時加入Time out機制，以
 
 <br>
 
+## [ExpandoObjectIpynbTest](./ExpandoObjectIpynbTest)
+
+#ExpandoObject #IDictionary
+
+測試使用Expando類別，該類別可以在程式執行中，動態的增減成員、方法等(如同JS的類別)
+
+<br>
+
 ## [FakeEnumTest](./FakeEnumTest)
 
 #Enum #模式匹配
@@ -45,6 +77,14 @@ AutoResetEvent範例，示範使用 AutoResetEvent 時加入Time out機制，以
 #Dictionary #Action #Func
 
 使用 Dictionary 儲存方法與參數的對應關係，方便根據命令字串選擇並執行對應的邏輯（原本是使用 if/else 來實現）。
+
+<br>
+
+## [LazyIpynbTest](./LazyIpynbTest)
+
+#Lazy
+
+Lazy類別測試，使用該類別可以在物件被使用時才被初始化
 
 <br>
 
