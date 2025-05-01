@@ -1,0 +1,3 @@
+#ConcurrentDictionary #執行緒安全
+
+示範使用執行緒安全的Dictionary
