@@ -1,0 +1,3 @@
+#AutoResetEvent #CancelToken #CancelTokenSource #WaitHandle #WaitAny
+
+示範將AutoResetEvent與CancelToken放進WaitHandle(父類) Ary中，並搭配WaitAny方法，用來控制異步的阻塞，並可在AutoResetEvent阻塞情況下，透過CancelToken解除阻塞，並做對應的處理；用以補足AutoResetEvent只有TimeOut機制，沒有取消機制的功能(未實現)
