@@ -104,3 +104,19 @@ Lazy類別測試，使用該類別可以在物件被使用時才被初始化
 
 <br>
 
+## [TaskWhenAnyTest](./TaskWhenAnyTest)
+
+#Task #WhenAny
+
+Task類別中的WhenAny函數使用測試，可用作Timeout(但是Task不會被取消，需增加Cancel機制)
+
+<br>
+
+## [WaitHandleipynbTest](./WaitHandleipynbTest)
+
+#AutoResetEvent #CancelToken #CancelTokenSource #WaitHandle #WaitAny
+
+示範將AutoResetEvent與CancelToken放進WaitHandle(父類) Ary中，並搭配WaitAny方法，用來控制異步的阻塞，並可在AutoResetEvent阻塞情況下，透過CancelToken解除阻塞，並做對應的處理；用以補足AutoResetEvent只有TimeOut機制，沒有取消機制的功能(未實現)
+
+<br>
+
